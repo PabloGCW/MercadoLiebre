@@ -1,0 +1,351 @@
+   *{
+       box-sizing: border-box;
+       margin: 0px;
+       padding: 0px;
+   }
+   
+   body{
+       font-family:'Roboto', sans-serif;
+       background-color: #ebebeb;
+   }
+   
+
+   header{
+    background-color: #EAC926;
+   } 
+
+   img.separador{
+       width: 100vw;
+       display: block;
+   }
+
+   .main-header-top-bar{
+       padding: 20px;
+       display: flex;
+       justify-content: space-between;
+       align-items:center;
+   }
+   nav ul li i{
+    margin-left: 5px;
+}
+   img{
+       width: 100%;
+   }
+   #imagenML{
+    background-position: left;
+    width: 50%;
+    }
+
+   
+    .searchbar{
+        position: relative;
+}
+    .input-icon{
+        width: 60%;
+        padding: 5px 25px 5px 5px; 
+        border-radius: 5px;
+    }
+
+    .fa-solid.fa-magnifying-glass{
+        position: relative;
+        right: 20px;
+    }
+
+   .ocultarNavBar{
+       display: none;
+   }
+
+   nav.ocultarNavBar a {
+    text-decoration: none;
+    color: black;
+}
+
+   .compra{
+    font-size: 12px;
+    text-align: center;
+   }
+
+   .burger-menu{
+       text-align: center;
+       
+   }
+   .fas.fa-bars{
+    font-size: 20px;
+    color: #ebebeb;
+    background-color: #1259c3;
+    padding: 10px;
+    border-radius: 5px;
+   }
+
+   main{
+    margin: auto;
+    width: 90%;
+}
+
+
+
+   article{
+       text-align: center;
+       background-color: white;
+       margin: 10px 15px;
+   }
+   
+
+   .producto{
+       border-top: 1px solid #ebebeb;
+       padding: 15px;
+       position: relative;
+   }
+
+   .titular{
+       font-size: 24px;
+   }  
+
+   .fa-solid.fa-truck{  
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    color: green;
+    border: solid 1px #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    transition: transform 0.5s ;
+}
+.fa-solid.fa-truck:hover{
+    transform: rotateZ(-90deg);
+}
+   .precio{
+       font-size: 18px;
+   }
+   .desc{
+       font-size: 16px;
+   }
+   .oculto{
+    font-size: 16px;
+    text-align: left;
+    color: #666;
+    display: none;
+    margin-top: 5mm;
+    margin-left: 7mm;
+    opacity: 0;
+}
+.oculto:hover{
+    opacity: 1;
+}
+
+.precio-desc{
+    display: flex;
+    justify-content: flex-start;
+}
+.precio{
+    flex-grow: 0.3;
+    font-weight: bold;
+    font-weight: lighter;
+}
+.desc{
+    flex-grow: 0.7;
+    color: #39b54a;
+    text-align: left;
+}
+
+
+
+
+   .footer{
+       text-align: center;
+   }
+
+   p{
+       font-size: 12px;
+   }
+
+   h3{
+       font-size: 16px;
+   }
+
+   h5{
+       font-size: 12px;
+   }
+
+   .fa-solid.fa-credit-card{
+       color: #1259c3;
+       size: 2em;
+       margin-bottom: 10px;
+   }
+   .fa-solid.fa-gift{
+    color: #1259c3;
+    size: 2em;
+    margin-bottom: 10px;
+   }
+   .fa-solid.fa-user-shield{
+    color: #1259c3;
+    size: 2em;
+    margin-bottom: 10px;
+   }
+
+
+.formulario{
+    padding: 20px 15px;
+    background-color:#ebebeb;
+}
+.formulariosearchbar{
+    padding: 20px 15px;
+    background-color:#ebebeb;
+    text-align: center;
+}
+
+.buttonsearchbar{
+    color: #FFF;
+    background-color:#1259c3;
+    padding: 10px;
+    border-radius: 10px;
+    width: 70vw;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+.inputsearchbar{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border: thin;
+    width: 70vw;
+}
+.formulariodiv{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.formulariodiv label{
+    margin-bottom: 15px;
+    font-weight: bold;
+    display: block;
+}
+.formulariodiv label.interes{
+    font-weight: lighter;
+}
+
+.inputcontrol{
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    border: thin;
+}
+
+.buttonform{
+    color: #FFF;
+    background-color:#1259c3;
+    padding: 10px;
+    border-radius: 10px;
+}
+.buttonformlogin{
+    color: #FFF;
+    background-color:#1259c3;
+    padding: 10px;
+    border-radius: 10px;
+}
+.buttonformlogin:hover{
+    background-color: #0022AA;
+}
+
+.feedback{
+    color: red;
+    font-size: 12px;
+}
+
+   
+   @media (min-width: 361px){
+    
+    article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+       }
+    .oculto{
+        display: block;
+    }
+    .burger-menu{
+        display: none;
+    }
+    .ocultarNavBar{
+        display: flex;
+        justify-content: space-between;
+    }
+    nav.ocultarNavBar ul {
+        list-style: none;
+        text-decoration: none;
+        color: black;
+        display: flex;
+        font-size: 12px;
+    }
+    nav.ocultarNavBar li{
+        margin: 0 1;
+    }
+    .main-header-laptop{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .show-tablet{
+        display: flex;
+        justify-content: space-between;
+    }
+     }
+
+   @media (min-width: 769px){
+
+    article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+       }
+    
+       .oculto{
+           display: block;
+       }
+    
+      .burger-menu{
+        display: none;
+    }
+    .ocultarNavBar{
+        display: flex;
+        justify-content: space-between;
+    }
+    nav.ocultarNavBar ul {
+        list-style: none;
+        text-decoration: none;
+        color: black;
+        display: flex;
+    }
+    nav.ocultarNavBar li{
+        margin: 0 10px;
+    }
+    .main-header-laptop{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .show-desktop{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .flexFooter{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 15px;
+    }
+
+    .fa-solid.fa-credit-card:hover{
+        color: #03264c;
+    }
+    .fa-solid.fa-gift:hover{
+        color: #03264c;
+    }
+    .fa-solid.fa-user-shield:hover{
+        color: #03264c;
+    }
+       }
+    
+    
